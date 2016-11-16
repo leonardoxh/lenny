@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+    </style>
+
+    <style name="FaceText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">@dimen/defaultMargingPadding</item>
+        <item name="android:background">@drawable/face_background_selector</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+</resources>
