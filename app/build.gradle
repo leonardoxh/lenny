@@ -49,10 +49,12 @@ android {
 project.ext {
     supportLibraryVersion = '25.0.0'
     moshiVersion = '1.3.1'
+    autoFitTextViewVersion = '0.2.1'
 }
 
 dependencies {
     compile "com.android.support:recyclerview-v7:${supportLibraryVersion}"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "com.squareup.moshi:moshi:${moshiVersion}"
+    compile "me.grantland:autofittextview:${autoFitTextViewVersion}"
 }

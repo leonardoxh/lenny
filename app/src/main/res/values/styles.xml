@@ -4,7 +4,7 @@
     </style>
 
     <style name="FaceText">
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">32sp</item>
         <item name="android:padding">@dimen/defaultMargingPadding</item>
         <item name="android:background">@drawable/face_background_selector</item>
         <item name="android:layout_margin">10dp</item>
